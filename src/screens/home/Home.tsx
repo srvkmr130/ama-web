@@ -17,7 +17,7 @@ function Home() {
             <div>
               <h1>Agri Mart Annapurna</h1>
             </div>
-            <div>
+            <div className="mid-para">
               <p>
                 Established in 2008, We are the most dedicated and disciplined
                 organisation. We are agricultural equipments manufacturer like

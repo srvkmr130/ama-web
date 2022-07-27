@@ -33,7 +33,7 @@
   height: 100vh;
   position: absolute;
   top: 0;
-  background-color: rgb(45 79 69 / 79%);
+  background-color: rgb(50 50 51 / 79%);
   z-index: 1;
 }
 .text-box {
@@ -48,8 +48,12 @@
   text-align: center;
   padding: 50px 0;
 }
+.text-box .mid-para {
+  margin: 25px 0;
+}
 .text-box h1 {
   font-size: 62px;
+  text-shadow: 2px 2px 0px rgb(169 190 196);
 }
 .text-box p {
   margin: 10px 0 40px;
