@@ -9,7 +9,7 @@ function Home() {
       <div className="top-space"></div>
       <div className="header">
         <div className="text-box">
-          <div data-aos="zoom-in-up">
+          <div>
             <h1>Agri Mart Annapurna</h1>
           </div>
           <div>
