@@ -1,0 +1,47 @@
+.home-container {
+}
+.header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+    url(../../../resources/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+}
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 62px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 18px;
+  line-height: 2.5rem;
+  word-spacing: 1.7px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  border-radius: 15px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 1px solid #075698;
+  background: #075698;
+  transition: 1s;
+}
