@@ -9,7 +9,7 @@ function Home() {
       <div className="top-space"></div>
       <div className="header">
         <div className="text-box">
-          <div>
+          <div data-aos="zoom-in-up">
             <h1>Agri Mart Annapurna</h1>
           </div>
           <div>
@@ -42,7 +42,7 @@ function Home() {
           voluptate.
         </p>
         <div className="row">
-          <div className="service-col">
+          <div className="service-col" data-aos="fade-down-right">
             <h3>Sale</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
@@ -50,7 +50,7 @@ function Home() {
               mollitia hic dignissimos id.
             </p>
           </div>
-          <div className="service-col">
+          <div className="service-col" data-aos="zoom-in">
             <h3>Servicing</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
@@ -58,7 +58,7 @@ function Home() {
               mollitia hic dignissimos id.
             </p>
           </div>
-          <div className="service-col">
+          <div className="service-col" data-aos="fade-down-left">
             <h3>Customer support</h3>
             <p>
               Contact our technical team for support.
