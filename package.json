@@ -1,4 +1,5 @@
 {
+  "homepage": "https://srvkmr130.github.io/ama-web",
   "name": "ama-web",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "aos": "^2.3.4",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-background-slider": "^2.0.0",
     "react-dom": "^18.2.0",
@@ -27,6 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
