@@ -74,6 +74,68 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <section className="products">
+        <h1>Our Products</h1>
+        <p>Top rated products by our customers</p>
+
+        <div className="products-row">
+          <div className="products-col">
+            <img
+              src={require("../../resources/Rotavator.png")}
+              alt="Rotavator"
+            />
+            <div className="layer">
+              <h3>ROTAVATOR</h3>
+            </div>
+          </div>
+          <div className="products-col">
+            <img
+              src={require("../../resources/THRESHER PADDY.png")}
+              alt="THRESHER PADDY"
+            />
+            <div className="layer">
+              <h3>THRESHER PADDY</h3>
+            </div>
+          </div>
+          <div className="products-col">
+            <img
+              src={require("../../resources/SEED CUM FERTILIZER.png")}
+              alt="SEED CUM FERTILIZER"
+            />
+            <div className="layer">
+              <h3>SEED CUM FERTILIZER</h3>
+            </div>
+          </div>
+          <div className="products-col">
+            <img
+              src={require("../../resources/MINI RICE MILL.png")}
+              alt="MINI RICE MILL"
+            />
+            <div className="layer">
+              <h3>MINI RICE MILL</h3>
+            </div>
+          </div>
+          <div className="products-col">
+            <img
+              src={require("../../resources/SPRING CLUTIVATOR.png")}
+              alt="SPRING CLUTIVATOR"
+            />
+            <div className="layer">
+              <h3>SPRING CLUTIVATOR</h3>
+            </div>
+          </div>
+          <div className="products-col">
+            <img
+              src={require("../../resources/HEAVY DUTY LAND.png")}
+              alt="HEAVY DUTY LAND"
+            />
+            <div className="layer">
+              <h3>HEAVY DUTY LAND</h3>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
