@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ama-web/static/css/main.114bc15f.css",
+    "main.js": "/ama-web/static/js/main.b90f2674.js",
+    "static/js/787.94fea92b.chunk.js": "/ama-web/static/js/787.94fea92b.chunk.js",
+    "static/media/slide1.png": "/ama-web/static/media/slide1.dfd8ba265d7d7b78f1e9.png",
+    "static/media/slide2.png": "/ama-web/static/media/slide2.d927bda45b737bf12763.png",
+    "static/media/slide3.png": "/ama-web/static/media/slide3.8e48cadc77e5982d7f78.png",
+    "static/media/banner.jpg": "/ama-web/static/media/banner.78f004b8df044f9a0f96.jpg",
+    "static/media/THRESHER PADDY.png": "/ama-web/static/media/THRESHER PADDY.88189c5f9ceb0c099c33.png",
+    "static/media/Rotavator.png": "/ama-web/static/media/Rotavator.760f28c9262c56e76e65.png",
+    "static/media/SEED CUM FERTILIZER.png": "/ama-web/static/media/SEED CUM FERTILIZER.b58ca4e548eb63422fe3.png",
+    "static/media/HEAVY DUTY LAND.png": "/ama-web/static/media/HEAVY DUTY LAND.286b20879c70c52ee4c8.png",
+    "static/media/MINI RICE MILL.png": "/ama-web/static/media/MINI RICE MILL.5100ff5db781f8a17982.png",
+    "static/media/SPRING CLUTIVATOR.png": "/ama-web/static/media/SPRING CLUTIVATOR.387384a9047d0d8f9ece.png",
+    "static/media/brand-logo.png": "/ama-web/static/media/brand-logo.bf8400dab87f2265ddd2.png",
+    "index.html": "/ama-web/index.html",
+    "main.114bc15f.css.map": "/ama-web/static/css/main.114bc15f.css.map",
+    "main.b90f2674.js.map": "/ama-web/static/js/main.b90f2674.js.map",
+    "787.94fea92b.chunk.js.map": "/ama-web/static/js/787.94fea92b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114bc15f.css",
+    "static/js/main.b90f2674.js"
+  ]
+}
