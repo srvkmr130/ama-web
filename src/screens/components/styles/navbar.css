@@ -15,7 +15,6 @@ li {
   height: 4rem;
   display: flex;
   justify-content: space-between;
-  padding: 2px 80px;
   position: fixed;
   z-index: 2;
   background-color: rgb(223, 237, 232);
@@ -27,6 +26,7 @@ li {
   display: flex;
   justify-content: start;
   align-items: center;
+  margin-left: 80px;
 }
 .logo img {
   height: 3.5rem;

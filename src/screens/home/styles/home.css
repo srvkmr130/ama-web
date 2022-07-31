@@ -1,3 +1,8 @@
+/* Common styles */
+.margin-20 {
+  margin: 20px;
+}
+
 .home-container .top-space {
   height: 3.5rem;
 }
@@ -34,14 +39,16 @@
 }
 .header-info {
   display: flex;
-  height: 100vh;
-  position: absolute;
   top: 0;
-  /* Comment the below  left and width style for bg carousel with blur effect  */
+  /* Comment the below left, width and margin style for bg carousel with blur effect  */
   left: 10%;
   width: 80%;
-  /* Uncomment the below background-color style for bg carousel with blur effect  */
-  /* background-color: rgb(50 50 51 / 79%); */
+  margin: auto;
+  /* Uncomment the below background-color , position and height style for bg carousel with blur effect  */
+  /* background-color: rgb(50 50 51 / 79%);
+    position: absolute;
+    height: 100vh;
+  */
 
   z-index: 1;
 }
@@ -162,6 +169,9 @@ section:nth-child(2n + 1) {
   .row {
     flex-direction: column;
   }
+  .text-box h1 {
+    font-size: 48px;
+  }
 }
 
 /* ----------Products ---------- */
@@ -274,6 +284,7 @@ section:nth-child(2n + 1) {
   padding: 25px;
   cursor: pointer;
   display: flex;
+  margin: 20px;
 }
 .testimonial-col img {
   height: 40px;
