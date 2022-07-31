@@ -1,3 +1,4 @@
+import { range } from "rambda";
 import React from "react";
 import { Link } from "react-router-dom";
 // import HomeCarousel from "../components/HomeCarousel";
@@ -223,6 +224,20 @@ function Home() {
               <i className="fa fa-star-half-o"></i>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="partner">
+        <h1>Brand Integration</h1>
+        <div className="brand-container">
+          {range(0, 14).map(() => (
+            <div className="brand">
+              <img
+                alt="logo"
+                src={require("../../resources/brand-logo.png")}
+              ></img>
+            </div>
+          ))}
         </div>
       </section>
 

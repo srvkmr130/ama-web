@@ -10334,6 +10334,11 @@ raf@^3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
+rambda@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/rambda/-/rambda-7.2.0.tgz#b24a106513fac6aa734c3f86ac873377e55cd201"
+  integrity sha512-xW2ZcQh+AtRHdIN0RUix+gAwyfAeMBZA6SnLSblw1+YRqUx+eV4Eppg/ayDdrvSs6KegZYHYtSF6+I86Z5Owqg==
+
 randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"

@@ -122,7 +122,7 @@ section:nth-child(2n + 1) {
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .service h1 {
   font-size: 36px;
@@ -247,7 +247,7 @@ section:nth-child(2n + 1) {
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .facilities-col {
   flex-basis: 31%;
@@ -272,7 +272,7 @@ section:nth-child(2n + 1) {
 .testimonial {
   width: 80%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
 }
 .testimonial-col {
@@ -309,6 +309,43 @@ section:nth-child(2n + 1) {
   }
 }
 
+/* Partner */
+
+.partner {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.partner .brand-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 6px 6px #dfdede;
+  border-radius: 20px;
+  padding: 40px 20px;
+}
+.partner .brand-container .brand {
+  margin: 10px 20px;
+  width: 180px;
+}
+.brand img {
+  width: inherit;
+  transition: all 1s ease;
+}
+.brand:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .partner .brand-container .brand {
+    width: 120px;
+  }
+}
 /* -------call to action----------- */
 .cta {
   margin: 100px auto;

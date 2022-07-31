@@ -204,7 +204,9 @@ li {
   .social-media ul {
     height: 3.5rem;
   }
-
+  .logo {
+    margin-left: 0px;
+  }
   .logo h2 {
     font-size: 2rem;
   }
