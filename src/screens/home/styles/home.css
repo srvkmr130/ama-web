@@ -1,13 +1,17 @@
 .home-container .top-space {
   height: 3.5rem;
 }
+
+/* Comment the below header style for bg carousel with blur effect  */
 .header {
-  /* background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.9)),
     url(../../../resources/banner.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed; 
-  display: flex;*/
+  background-attachment: fixed;
+  display: flex;
+}
+.header-container {
   min-height: 100vh;
   position: relative;
 }
@@ -33,7 +37,12 @@
   height: 100vh;
   position: absolute;
   top: 0;
-  background-color: rgb(50 50 51 / 79%);
+  /* Comment the below  left and width style for bg carousel with blur effect  */
+  left: 10%;
+  width: 80%;
+  /* Uncomment the below background-color style for bg carousel with blur effect  */
+  /* background-color: rgb(50 50 51 / 79%); */
+
   z-index: 1;
 }
 .text-box {
@@ -183,7 +192,7 @@ section:nth-child(2n + 1) {
   align-items: center;
 }
 .products-col:hover img {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .products-col img {
   width: 100%;
@@ -200,8 +209,8 @@ section:nth-child(2n + 1) {
   transition: 0.5s;
 }
 .layer:hover {
-  background: rgba(151, 130, 130, 0.553);
-  box-shadow: inset 1px -1px 20px 10px rgb(5 1 37 / 20%);
+  background: rgb(151 130 130 / 18%);
+  box-shadow: inset 0px 0px 7px 1px rgb(174 187 179 / 4%);
   cursor: pointer;
 }
 .layer h3 {

@@ -1,17 +1,17 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import HomeCarousel from "../components/HomeCarousel";
+// import HomeCarousel from "../components/HomeCarousel";
 import "./styles/home.css";
 
 function Home() {
   return (
     <div className="home-container">
       <div className="top-space"></div>
-      <div className="header">
-        <div className="carousel">
+      <div className="header header-container">
+        {/* For bg carousel with blur effect */}
+        {/* <div className="carousel">
           <HomeCarousel autoPlay />
-        </div>
+        </div> */}
         <div className="header-info">
           <div className="text-box">
             <div>
