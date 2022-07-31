@@ -254,7 +254,7 @@ function Home() {
           the unbeatable leaders in the realm of our activity. We also have many
           other agricultural equipment used for farmers.
         </p>
-        <div className="icons" data-aos="flip-up">
+        <div className="icons">
           <ul className="no-list-style horizontal-list text-center social-icons">
             <li>
               <a href="" target="_blank">

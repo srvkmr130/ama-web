@@ -192,7 +192,8 @@ section:nth-child(2n + 1) {
   align-items: center;
 }
 .products-col:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
+  filter: blur(2.5px);
 }
 .products-col img {
   width: 100%;
@@ -209,14 +210,15 @@ section:nth-child(2n + 1) {
   transition: 0.5s;
 }
 .layer:hover {
-  background: rgb(151 130 130 / 18%);
+  background: rgb(123 108 108 / 38%);
   box-shadow: inset 0px 0px 7px 1px rgb(174 187 179 / 4%);
   cursor: pointer;
 }
 .layer h3 {
   width: 100%;
   font-weight: 500;
-  color: transparent;
+  color: white;
+  text-shadow: 1px 1px 6px rgb(169 190 196);
   font-size: 26px;
   bottom: 0;
   left: 50%;
