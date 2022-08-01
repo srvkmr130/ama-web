@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+Click to see the [Live Demo](https://ama-web-a7fa3.web.app/) (WIP)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Important commands
+`firebase deploy` - to deploy the web app using firebase hosting.
 
 ## Available Scripts
 
