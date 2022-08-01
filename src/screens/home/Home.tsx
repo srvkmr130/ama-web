@@ -1,6 +1,7 @@
 import { range } from "rambda";
 import React from "react";
 import { Link } from "react-router-dom";
+import Contact from "../components/Contact";
 // import HomeCarousel from "../components/HomeCarousel";
 import "./styles/home.css";
 
@@ -248,7 +249,7 @@ function Home() {
           AnyWhere From The India
         </h1>
         <a href="" className="hero-btn">
-          CONTACT US
+          Join Us
         </a>
       </section>
 
@@ -256,7 +257,8 @@ function Home() {
         <div className="bubble-big" data-aos="zoom-in-up"></div>
         <div className="bubble-mid" data-aos="zoom-in-down"></div>
         <div className="bubble-small" data-aos="zoom-in-up"></div>
-        <h4>About Us</h4>
+        <Contact />
+        {/* <h4>About Us</h4>
         <p>
           Established in 2008, We are the most dedicated and disciplined
           organisation. We are agricultural equipments manufacturer like
@@ -295,7 +297,7 @@ function Home() {
         </div>
         <p>
           2012-2022 Annapurna Agro International Pvt.Ltd.. All Rights Reserved
-        </p>
+        </p> */}
       </footer>
     </div>
   );

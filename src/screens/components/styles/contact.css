@@ -1,0 +1,154 @@
+#contact {
+  /* background-color: #0abcf9; */
+  /* background-image: linear-gradient(41deg, #1a6b56 0%, #423b54 74%, #102fa0); */
+  color: black;
+  padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+  color: black;
+}
+
+#contact-form {
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-container {
+  display: flex;
+  margin-top: 30px;
+  width: 90%;
+  justify-content: space-between;
+}
+
+#my-details-container {
+  width: 50%;
+  margin-left: 6%;
+}
+
+#my-details-container h3 {
+  color: black;
+  font-weight: 550;
+  font-size: 1.2rem;
+}
+
+#contact-form-container {
+  width: 50%;
+}
+
+#my-details-container p {
+  color: black;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.my-details-info-container {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 1rem;
+}
+
+.my-details-info-container span {
+  margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+  color: black;
+}
+
+.my-details-icon {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: bottom;
+  margin-right: 0.5rem;
+}
+
+#contact-form input,
+textarea {
+  max-width: 90%;
+  margin: 10px 15px;
+  padding: 4px 10px;
+  border: 0px solid transparent;
+  border-bottom: 2px solid rgb(138, 138, 138);
+  color: #636262;
+  background: transparent;
+  width: 90%;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+  background: transparent;
+  font-size: 0.95rem;
+  border: 2px solid #7eda9cad;
+  margin: auto;
+  margin-top: 4%;
+  border-radius: 15px;
+  color: #3c674ad6;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.046875em;
+  line-height: 1;
+  padding: 12px 34px;
+  transition: all 1s ease;
+}
+
+#contact-form button:hover {
+  cursor: pointer;
+  background-color: rgb(101 204 170 / 53%);
+  color: white;
+}
+
+#user-name {
+  color: #e8af7ed1;
+}
+
+#contact-form-message {
+  color: #d8800f;
+  padding: 0 25px;
+  text-align: center;
+  background: radial-gradient(#ad7568c7, #0000001c);
+  word-spacing: 5px;
+  font-family: sans-serif;
+  border-radius: 25px;
+}
+
+#contact .social-icons li a i {
+  font-size: 1.2rem;
+}
+.social-icons {
+  margin-top: 20px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.mr-20 {
+  margin-right: 10px;
+}
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+  #contact-form {
+    margin-left: 0%;
+  }
+
+  #contact-container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #my-details-container {
+    width: 100%;
+    margin: 4%;
+  }
+
+  #contact-form-container {
+    width: 80%;
+    margin: 10%;
+  }
+}

@@ -17,7 +17,7 @@ li {
   justify-content: space-between;
   position: fixed;
   z-index: 2;
-  background-color: rgb(223, 237, 232);
+  background-color: rgb(171 230 209);
   box-shadow: rgb(50 50 93 / 25%) 0px 1px 100px -20px,
     rgb(0 0 0 / 30%) 13px -7px 60px -30px;
 }
