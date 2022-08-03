@@ -62,6 +62,9 @@ li {
   margin: auto;
   transition: 0.5s;
 }
+.selected {
+  border-bottom: 2px solid #3da9e0;
+}
 .menu-link ul li:hover::after {
   width: 100%;
 }
